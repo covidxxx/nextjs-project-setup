@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary_yellow"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top Row with Profile and Actions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Profile Section -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Profile Image Placeholder -->
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/background_light_gray"
+                android:gravity="center"
+                android:text="👤"
+                android:textSize="20sp" />
+
+            <!-- Settings Icon -->
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/text_gray"
+                android:gravity="center"
+                android:text="⚙"
+                android:textColor="@color/background_white"
+                android:textSize="12sp" />
+
+            <!-- Greeting Text -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hello_user"
+                    style="@style/HeaderTextSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    style="@style/HeaderTextLarge" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Right Side Actions -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Notification Bell -->
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="12dp"
+                android:background="@color/text_gray"
+                android:gravity="center"
+                android:text="🔔"
+                android:textColor="@color/background_white"
+                android:textSize="16sp" />
+
+            <!-- Login Button -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/text_gray"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:paddingTop="8dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="8dp"
+                android:text="@string/login"
+                android:textColor="@color/background_white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
