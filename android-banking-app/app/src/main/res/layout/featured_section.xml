@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_light_gray"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Section Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/featured"
+        style="@style/SectionTitle" />
+
+    <!-- Featured Items Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <!-- Medical Insurance -->
+        <RelativeLayout style="@style/FeaturedButton">
+            <!-- NEW Badge -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="4dp"
+                android:text="@string/new_badge"
+                style="@style/NewBadge" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/accent_green"
+                    android:gravity="center"
+                    android:text="🏥"
+                    android:textColor="@color/background_white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/medical_insurance"
+                    style="@style/FeaturedText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Goal-Based Investment -->
+        <RelativeLayout style="@style/FeaturedButton">
+            <!-- NEW Badge -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="4dp"
+                android:text="@string/new_badge"
+                style="@style/NewBadge" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/text_blue"
+                    android:gravity="center"
+                    android:text="📈"
+                    android:textColor="@color/background_white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/goal_based_investment"
+                    style="@style/FeaturedText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Gold Investment -->
+        <RelativeLayout style="@style/FeaturedButton">
+            <!-- NEW Badge -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="4dp"
+                android:text="@string/new_badge"
+                style="@style/NewBadge" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/primary_yellow_dark"
+                    android:gravity="center"
+                    android:text="🥇"
+                    android:textColor="@color/background_white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/gold_investment"
+                    style="@style/FeaturedText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- Global Access -->
+        <RelativeLayout style="@style/FeaturedButton">
+            <!-- NEW Badge -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="4dp"
+                android:text="@string/new_badge"
+                style="@style/NewBadge" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/accent_red"
+                    android:gravity="center"
+                    android:text="🌍"
+                    android:textColor="@color/background_white"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/global_access"
+                    style="@style/FeaturedText" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
