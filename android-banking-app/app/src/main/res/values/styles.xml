@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:textColorPrimary">@color/text_black</item>
+        <item name="android:textColorSecondary">@color/text_gray</item>
+    </style>
+
+    <!-- Header Styles -->
+    <style name="HeaderTextLarge">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="HeaderTextSmall">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <!-- Wallet Card Styles -->
+    <style name="WalletTitle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PhoneNumber">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_gray</item>
+    </style>
+
+    <style name="BalanceAmount">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ViewAllLink">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+
+    <!-- Section Title Styles -->
+    <style name="SectionTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Quick Action Button Styles -->
+    <style name="QuickActionButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@color/card_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="QuickActionText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Featured Item Styles -->
+    <style name="FeaturedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@color/card_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="FeaturedText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Badge Styles -->
+    <style name="PromoBadge">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/background_white</item>
+        <item name="android:background">@color/accent_red</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="NewBadge">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/background_white</item>
+        <item name="android:background">@color/accent_red</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <!-- Bottom Navigation Styles -->
+    <style name="BottomNavText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bottom_nav_unselected</item>
+    </style>
+
+    <style name="BottomNavTextSelected">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bottom_nav_selected</item>
+    </style>
+</resources>
