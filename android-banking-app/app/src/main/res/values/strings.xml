@@ -40,4 +40,20 @@
     <string name="scan">Scan</string>
     <string name="expenses">Expenses</string>
     <string name="apply">Apply</string>
+    
+    <!-- Scan Activity -->
+    <string name="scan_and_pay">Scan &amp; Pay</string>
+    <string name="pay">PAY</string>
+    <string name="receive">RECEIVE</string>
+    <string name="place_qr_code">Place QR code in the scan area</string>
+    <string name="show_qr_code">Show QR Code</string>
+    <string name="scan_qr_from_gallery">Scan QR Code from Gallery</string>
+    
+    <!-- Receive Mode -->
+    <string name="malaysia_national_qr">MALAYSIA NATIONAL QR</string>
+    <string name="show_qr_instruction">Show your QR code to your friends or family to receive money</string>
+    <string name="masked_account">**** **** 8122</string>
+    <string name="change">Change</string>
+    <string name="share">Share</string>
+    <string name="enter_amount">Enter Amount</string>
 </resources>
