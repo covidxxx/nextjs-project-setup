@@ -108,10 +108,25 @@ See `ICON_GUIDE.md` for detailed instructions.
 - Easy to customize and extend with additional features
 - Icon folders are pre-created for easy customization
 
+## Features Added
+
+### Scan Functionality
+- **Scan Button**: Click the Scan button in bottom navigation to open camera scanner
+- **Scan & Pay Interface**: Matches the design with PAY/RECEIVE toggle buttons
+- **Camera Scanner Area**: Black background with yellow corner frames for QR scanning
+- **Bottom Controls**: Flashlight, Show QR Code button, and Scan from Gallery option
+- **Navigation**: Close button returns to main screen
+
+### Interactive Elements
+- Scan button in bottom navigation opens ScanActivity
+- PAY/RECEIVE toggle buttons with visual feedback
+- Close button functionality to return to main screen
+
 ## Future Enhancements
 
-- Add click listeners for buttons
-- Implement navigation between sections
-- Add animations and transitions
-- Connect to backend services
+- Add real camera functionality for QR scanning
+- Implement QR code generation for "Show QR Code"
+- Add gallery integration for "Scan from Gallery"
+- Connect to backend services for payment processing
 - Add user authentication
+- Implement flashlight toggle functionality
