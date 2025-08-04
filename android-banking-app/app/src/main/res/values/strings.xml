@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MAE Banking</string>
+    
+    <!-- Header Section -->
+    <string name="hello_user">Hello,</string>
+    <string name="user_name">Ayie</string>
+    <string name="login">Login</string>
+    
+    <!-- Wallet Section -->
+    <string name="wallet_title">MAE Wallet</string>
+    <string name="phone_number">0143 5654 8122</string>
+    <string name="balance">RM 73.13</string>
+    <string name="view_all_accounts">View All Accounts</string>
+    
+    <!-- Quick Actions -->
+    <string name="quick_actions">Quick Actions</string>
+    <string name="view_all">View All</string>
+    <string name="secure2u">Secure2u</string>
+    <string name="motorcycle_insurance">Motorcycle Insurance</string>
+    <string name="pay_bills">Pay Bills</string>
+    <string name="transfer">Transfer</string>
+    <string name="wet_cashback">Wet Cashback</string>
+    <string name="tabung">Tabung</string>
+    <string name="split_bill">Split Bill</string>
+    <string name="movies_leisure">Movies &amp; Leisure</string>
+    <string name="promo">PROMO</string>
+    
+    <!-- Featured Section -->
+    <string name="featured">Featured</string>
+    <string name="medical_insurance">Medical Insurance</string>
+    <string name="goal_based_investment">Goal-Based Investment</string>
+    <string name="gold_investment">Gold Investment</string>
+    <string name="global_access">Global Access</string>
+    <string name="new_badge">NEW</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="home">Home</string>
+    <string name="accounts">Accounts</string>
+    <string name="scan">Scan</string>
+    <string name="expenses">Expenses</string>
+    <string name="apply">Apply</string>
+</resources>
