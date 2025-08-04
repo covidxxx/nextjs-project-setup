@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_yellow">#FFD700</color>
+    <color name="primary_yellow_dark">#FFC107</color>
+    <color name="primary_yellow_light">#FFF9C4</color>
+    
+    <!-- Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light_gray">#F5F5F5</color>
+    <color name="background_gray">#E0E0E0</color>
+    
+    <!-- Text Colors -->
+    <color name="text_black">#000000</color>
+    <color name="text_dark_gray">#424242</color>
+    <color name="text_gray">#757575</color>
+    <color name="text_light_gray">#9E9E9E</color>
+    <color name="text_blue">#2196F3</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_red">#F44336</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_orange">#FF9800</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#E0E0E0</color>
+    
+    <!-- Bottom Navigation -->
+    <color name="bottom_nav_background">#2C2C2C</color>
+    <color name="bottom_nav_selected">#FFD700</color>
+    <color name="bottom_nav_unselected">#757575</color>
+</resources>
