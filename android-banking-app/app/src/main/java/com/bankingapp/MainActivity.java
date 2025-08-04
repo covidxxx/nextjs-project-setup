@@ -1,9 +1,14 @@
 package com.bankingapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 
 public class MainActivity extends Activity {
+    
+    private LinearLayout scanButton;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,16 +17,26 @@ public class MainActivity extends Activity {
         
         // Initialize the UI components
         initializeViews();
+        setupClickListeners();
     }
     
     private void initializeViews() {
-        // This method can be used to initialize any UI components
-        // For now, we're keeping it simple with just the static layout
-        
-        // Future enhancements can be added here:
-        // - Click listeners for buttons
-        // - Dynamic balance updates
-        // - Navigation between sections
+        // Find the scan button in bottom navigation
+        scanButton = findViewById(R.id.scan_tab);
+    }
+    
+    private void setupClickListeners() {
+        // Set click listener for scan button
+        if (scanButton != null) {
+            scanButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Open scan activity
+                    Intent intent = new Intent(MainActivity.this, ScanActivity.class);
+                    startActivity(intent);
+                }
+            });
+        }
     }
     
     @Override
